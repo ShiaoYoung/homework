@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="VmdxxSSCwP_MjcLimLE4">
-    <mxGraphModel dx="455" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,42 @@
           <mxGeometry x="-0.1755" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-18" value="号码簿" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-19" value="- 号码簿数据库" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-18">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-18">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-21" value="+ 搜索电话号码&lt;div&gt;+ 列出区号&lt;/div&gt;&lt;div&gt;+ 生成紧急求助电话号码&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-18">
+          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-27" value="电话" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-28" value="- 姓名&lt;div&gt;- 区号&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-27">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-31" value="区号" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="700" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-32" value="- 地区名称&lt;div&gt;- 区号&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-31">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-33" value="用户" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="652" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-34" value="（用户信息）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-33">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-36" value="紧急求助电话号码" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="760" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z2J9Q2tjbtwEJaKsVnDF-37" value="- 地区&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;紧急求助电话号码&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="z2J9Q2tjbtwEJaKsVnDF-36">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
